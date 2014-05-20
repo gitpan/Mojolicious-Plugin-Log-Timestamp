@@ -1,0 +1,56 @@
+{
+   "abstract" : "Plugin for customised log timestamps",
+   "author" : [
+      "Nic Sandfield <niczero@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mojolicious-Plugin-Log-Timestamp",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc",
+         "test"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Mojar" : "1.062",
+            "Mojolicious" : "3.33",
+            "perl" : "5.010001"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/niczero/mojolicious-plugin-log-timestamp/issues"
+      },
+      "homepage" : "http://niczero.github.com/mojolicious-plugin-log-timestamp",
+      "license" : [
+         "http://www.opensource.org/licenses/artistic-license-2.0"
+      ],
+      "repository" : {
+         "url" : "http://github.com/niczero/mojolicious-plugin-log-timestamp"
+      }
+   },
+   "version" : "0.022"
+}
