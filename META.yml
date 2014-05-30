@@ -3,15 +3,15 @@ abstract: 'Plugin for customised log timestamps'
 author:
   - 'Nic Sandfield <niczero@cpan.org>'
 build_requires:
-  Test::More: 0
+  Test::More: '0'
 configure_requires:
-  ExtUtils::MakeMaker: 6.30
+  ExtUtils::MakeMaker: '6.30'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921'
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.140640'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Mojolicious-Plugin-Log-Timestamp
 no_index:
   directory:
@@ -19,12 +19,11 @@ no_index:
     - inc
     - test
 requires:
-  Mojar: 1.062
-  Mojolicious: 3.33
-  perl: 5.010001
+  Mojar: '1.062'
+  Mojolicious: '3.33'
+  perl: '5.010001'
 resources:
   bugtracker: http://github.com/niczero/mojolicious-plugin-log-timestamp/issues
-  homepage: http://niczero.github.com/mojolicious-plugin-log-timestamp
   license: http://www.opensource.org/licenses/artistic-license-2.0
   repository: http://github.com/niczero/mojolicious-plugin-log-timestamp
-version: 0.022
+version: 0.023
